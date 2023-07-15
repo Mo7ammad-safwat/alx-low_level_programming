@@ -25,7 +25,7 @@ if (i < 7)
 {
 putchar(',');
 putchar(' ');
-} 
+}
 }
 }
 }

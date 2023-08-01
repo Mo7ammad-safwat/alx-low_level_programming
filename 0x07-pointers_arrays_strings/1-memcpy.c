@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * simple_print_buffer - prints buffer in hexa
- * @buffer: the address of memory to print
- * @size: the size of the memory to print
+ * _memcpy - copies memory area
+ * @dest: pointer to the destination memory area
+ * @src: pointer to the source memory area
+ * @n: number of bytes to copy
  *
- * Return: Nothing.
+ * Return: pointer to the destination memory area
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)

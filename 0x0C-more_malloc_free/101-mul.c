@@ -39,7 +39,7 @@ exit(98);
 }
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
-result = num1 * num2;
+result = num1 *num2;
 printf("%ld\n", result);
 return (0);
 }
